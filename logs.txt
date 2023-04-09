@@ -1,0 +1,39 @@
+commit 71c498cb2990ed68da60639f8e6bae98ba69730b
+Merge: bff5500 0b9e4e1
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 23:00:30 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 0b9e4e10c9b1a260aef9f340ccf9ea9ca84d7570 (origin/bug2, bug2)
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 22:55:27 2023 +0200
+
+   Merge branch 'bug1'
+commit 5ba5f75e6bf84cb187a8729f6513fd7e00f8c9f2 (HEAD -> master, origin/master, bug3)
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 22:58:24 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 71c498cb2990ed68da60639f8e6bae98ba69730b
+
+    Fix wrong condition in filterOddNumbers
+
+commit bff5500daaae29a374a158a55dbabb793cce75b6 (origin/bug1, bug1)
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 22:53:43 2023 +0200
+
+    Fix wrong loop for reading
+
+commit f2065a84da250d9a6b6e084414659515e7602fee
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 22:50:22 2023 +0200
+
+    Add java class
+
+commit 4ce2daa94c96ba00a3194994c984df3a01d72275
+Author: StefanAngelovski <stefanangelovski2002@gmail.com>
+Date:   Sun Mar 26 22:49:03 2023 +0200
+
+    Initial commit

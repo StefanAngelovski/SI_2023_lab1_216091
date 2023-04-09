@@ -1,0 +1,55 @@
+1. git init - inicijaliziranje na .git local repo
+2. git remote add origin https://github.com/StefanAngelovski/SI_2023_lab1_216091.git - povrzuvanje na lokalniot repo so GitHub repo preku remote
+3. git add README.md - dodavanje na tekst fajl od lokalnoto repo kade se vpisani ime, prezime i indeks
+4. git commit -m "Initial commit" - prati komit so poraka "Initial commit"
+5. git push -u origin master  - push na site promeni
+==================
+
+6. Se simnuva SILab1.java od dadenoto repo i se stava vo lokalniot repozitorium
+7. git add SILab1.java  - dodavanje na .java fajlot vo grankata master
+8. git commit -m "Add java class" - commit za dodadena nova java klasa
+9. git push -u origin master  - -//-
+
+==================
+
+Se sozdavaat tri novi granki za sekoja greska
+10. git branch bug1 
+11. git branch bug2
+12. git branch bug3
+
+13. git checkout bug1   -  proveruvame dali sme na bug1 so "git branch", ako ne sme "git checkout bug1"
+14. ke go popravime problemot pri standarden vlez od <= vo <
+15. git add SILab1.java   - dodavanje na promenetiot java file
+16. git commit -m "Fix wrong loop for reading"   - commit so poraka za promenata
+17. git push origin bug1   - push vo bug1 branch
+
+18. git checkout bug2  - pozicioniranje vo bug2 branch
+19. git branch - proveruvanje dali sme na bug2
+20. popravanje na filterOddNumbers, od == vo != za da najde broevi ne delivi so 2
+21. git add SILab1.java  - dodavanje na promenet java file
+22. git commit -m "Fix wrong condition in filterOddNumbers"   - komit so poraka za popravkata
+23. git push origin bug2  - push vo bug2 branch
+
+24. git checkout bug3  - pozicioniranje vo bug3 branch
+25. git branch - proveruvanje dali sme na bug3
+26. popravanje na sumEvenNumbers na brojacot od 1 vo 0
+27. add SILab1.java - dodavanje na promenet java file
+28. git commit -m "Fix method sumEvenNumbers"   - komit so poraka za popravkata
+29. git push origin bug3  - push vo bug3 branch
+=======================
+
+30. git checkout master - pozicioniranje vo glavniot master branch
+31. git branch - proverka dali sme vo master
+32. git merge bug1  - povrzuvanje so bug1
+33. git commit   -  git push
+34. git merge bug2  - povrzuvanje so bug2
+35. git commit  -   git push
+
+
+36. git checkout bug3  - pozicioniranje vo bug3 branch
+37. git branch  - proverka dali sme vo bug3
+38. git rebase master  - rebase na bug3 vo master
+39. git checkout master - pozicioniranje vo master
+40. git branch - proverka dali sme vo master
+41. git merge bug3  - povrzuvanje na bug3 so master
+42. git commit    -    git push
